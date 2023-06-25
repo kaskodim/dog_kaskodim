@@ -126,20 +126,16 @@ h6 {
 }
 
 .portfolio__img {
-    
+
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .portfolio__img__icon {
     width: 25%;
     min-width: 100px;
     max-width: 150px;
-    margin:  10px;
-
-
-
+    margin: 10px;
 }
