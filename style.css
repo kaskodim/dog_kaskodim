@@ -1,0 +1,145 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: black
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+
+
+/* header ШАПКА*/
+.header {
+
+    background: #ffffff;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px green solid;
+}
+
+
+.logo {
+    display: flex;
+    min-width: 265px;
+
+}
+
+
+.logo__img {
+    width: 60px;
+    height: 70px;
+}
+
+
+.logo__breed {
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.logo__name {
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.nav {
+    text-transform: uppercase;
+    font-size: 15px;
+    min-width: 396px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__link {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/* hover наведение мыши */
+
+.active {
+    background: #d0a5a5;
+    color: white;
+}
+
+/*   portfolio блок ПОРТФОЛИО  */
+
+.portfolio__name {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+.portfolio__text {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.portfolio__img__icon {
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.portfolio__nav {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.portfolio__nav__link {
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0 10px;
+    background: #d0a5a5;
+}
+
+.active__nav {
+    background: #a97b7b;
+}
+
+.portfolio__img {
+    
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.portfolio__img__icon {
+    width: 25%;
+    min-width: 100px;
+    max-width: 150px;
+    margin:  10px;
+
+
+
+}
