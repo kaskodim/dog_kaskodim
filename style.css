@@ -24,6 +24,7 @@ h6 {
 
 
 
+
 /* header ШАПКА*/
 .header {
 
@@ -31,7 +32,7 @@ h6 {
     padding: 10px 80px;
     display: flex;
     justify-content: space-between;
-    border: 2px green solid;
+    
 }
 
 
@@ -83,14 +84,16 @@ h6 {
 
 /*   portfolio блок ПОРТФОЛИО  */
 
-.portfolio__name {
+.portfolio__name,
+.about__me__name {
     font-size: 25px;
     text-align: center;
     display: block;
     margin-top: 50px;
 }
 
-.portfolio__text {
+.portfolio__text,
+.about__me__text {
     font-size: 15px;
     text-align: center;
     display: block;
@@ -135,7 +138,93 @@ h6 {
 
 .portfolio__img__icon {
     width: 25%;
-    min-width: 100px;
-    max-width: 150px;
+    min-width: 70px;
+    max-width: 100px;
     margin: 10px;
+}
+
+/* блок CARDS*/
+
+h1 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text__about__me__cards__coment__01,
+.text__about__me__cards__coment__02 {
+    font-size: 15px;
+
+}
+
+.text__about__me__cards__coment__01 {
+    font-style: italic;
+}
+
+.text__about__me__cards__coment__02 {
+    padding-top: 30px;
+
+}
+
+.about__me {
+    background: #a97b7b;
+}
+
+.about__me__name {
+    padding-top: 50px;
+   
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.about__me__text {
+    text-align: center;
+}
+
+
+
+.about__me__cards {
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+
+
+}
+
+.img_about__me__cards {
+
+    width: 200px;
+    width: 100%;
+    border-radius: 10%;
+    display: block;
+
+
+}
+
+.about__me__cards__01 {
+    background: #ffffff;
+    margin: 35px;
+    max-width: 300px;
+    min-width: 150px;
+    padding: 15px;
+}
+
+.about__me__cards__02 {
+    background: #ffffff;
+    margin: 35px;
+    max-width: 300px;
+    min-width: 150px;
+    padding: 15px;
+}
+
+
+.about__me__cards__03 {
+    background: #ffffff;
+    margin: 35px;
+    max-width: 300px;
+    min-width: 150px;
+    padding: 15px;
 }
