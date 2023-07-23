@@ -16,19 +16,20 @@
     display: flex;
 }
 
-.form__name {
-    width: 50%;
-    padding: 10px;
-    outline: none;
-    border: 2px solid rgb(161, 159, 159);
-    margin-right: 10px;
-}
-
+.form__name,
 .form__email {
     width: 50%;
     padding: 10px;
     outline: none;
     border: 2px solid rgb(161, 159, 159);
+    
+}
+
+.form__name {
+    margin-right: 10px;
+}
+
+.form__email {
     margin-left: 10px;
 }
 
@@ -41,9 +42,10 @@
     font-family: sans-serif;
     padding: 10px;
     margin-top: 20px;
+    vertical-align: middle;
 }
 
-::placeholder {
+.form__field ::placeholder {
     font-style: italic;
 }
 
@@ -55,21 +57,21 @@
     background: #d0a5a5;
     text-transform: uppercase;
     font-size: 15px;
-    margin-top: 5px;
+    margin-top: 20px;
     border: 2px solid rgb(161, 159, 159);
 }
 
-input:focus {
+.form__field input:focus {
     border-color: black;
 }
 
-textarea:focus {
+.form__field textarea:focus {
     border-color: black;
 }
 
 .info__title {
     display: block;
-    padding-left: 40px;
+    padding-left: 47px;
 }
 
 .info__list-contact {

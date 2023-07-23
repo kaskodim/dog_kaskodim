@@ -28,7 +28,7 @@ img {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 70px;
+    scroll-padding-top: 90px;
 }
 
 /*         header ШАПКА          */
@@ -37,9 +37,10 @@ html {
     background: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 15px 35px;
+    padding: 10px 35px;
     position: sticky;
     top: 0;
+    box-shadow: 0px -2px 10px 0px black;
 }
 
 .header__logo {
@@ -77,6 +78,7 @@ html {
     text-decoration: none;
     border-radius: 5px;
     transition: 0.3s;
+    margin: 0 5px;
 }
 
 .header__nav-link:hover {
@@ -84,7 +86,8 @@ html {
 
 }
 
-.header__nav-link--active {
+.header__nav-link--active,
+.header__nav-link--active:hover {
     background: #a97b7b;
     color: #ffffff;
 }
@@ -93,7 +96,7 @@ html {
 
 .banner {
     height: 650px;
-    background-image: url(./Images/heading/background__img.png);
+    background-image: url(./images/heading/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -104,7 +107,7 @@ html {
     color: #ffffff;
 }
 
-.banner__blok-title {
+.banner__block-title {
     background: #a97b7ba6;
     box-shadow: 0px 0px 5px 0px #ffffff;
 }
@@ -141,10 +144,10 @@ html {
 
 .banner__img-svg {
     display: block;
-    height: 80px;
-    width: 80px;
-    margin-top: 10px;
-    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+    margin: 10px auto 0;
+   
 }
 
 .banner__img-svg path {
@@ -162,6 +165,11 @@ html {
     padding: 35px 0;
 }
 
+.section--dark {
+    background: #a97b7b;
+    color: #ffffff;
+}
+
 .section__title {
     font-size: 25px;
     text-align: center;
@@ -177,7 +185,6 @@ html {
 
 .up_arrow {
     position: fixed;
-    bottom: 0;
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -185,7 +192,7 @@ html {
     stroke: #ffffff;
     stroke-width: 3px;
     right: 15px;
-    bottom: 85px;
+    bottom: 20px;
     opacity: 0.8;
     transition: 0.5s;
 }

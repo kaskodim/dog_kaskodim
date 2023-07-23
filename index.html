@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_section-portfolio.css">
-    <link rel="stylesheet" href="style_section-about-me.css">
-    <link rel="stylesheet" href="style_section-form-contact.css">
-    <link rel="stylesheet" href="style_footer.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./styles/about-me.css">
+    <link rel="stylesheet" href="./styles/form-contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Jack Russell Terrier</title>
 </head>
 
@@ -15,7 +15,7 @@
     <!-- ШАПКА -->
     <header class="header">
         <div class="header__logo">
-            <img src="./Images/Header/logo.jpg" class="header__logo-img" alt="логотип" />
+            <img src="./images/header/logo.jpg" class="header__logo-img" alt="логотип" />
             <div>
                 <div class="header__logo-breed">Джек-рассел-терьер</div>
                 <div class="header__logo-name">"Майло"</div>
@@ -31,7 +31,7 @@
 
     <!-- ЗАГОЛОВОК -->
     <section class="banner" id="banner-main">
-        <div class="banner__blok-title">
+        <div class="banner__block-title">
             <div class="banner__title">Tрудно быть <i><b>"спокойным"</b></i></div>
             <div class="banner__subtitle">Каждый день я просыпаюсь
                 с одной единственной мыслью о том,
@@ -41,8 +41,8 @@
         </div>
         <div class="banner__curiosity">
             
-            <a href="#section-about-me" button class="banner__button">Узнайте<br>больше</button></a>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            <a href="#section-about-me" class="banner__button">Узнайте<br>больше</a>
+            <svg x="0px"
                 y="0px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve"
                 class="banner__img-svg">
                 <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
@@ -80,26 +80,26 @@
         </div>
 
         <div class="portfolio-img">
-            <img src="./Images/Icon/photo_camera_icon.jpg" alt="фотоаппарат" class="portfolio-img__icon">
-            <img src="./Images/Icon/chat_icon.jpg" alt="чат" class="portfolio-img__icon">
-            <img src="./Images/Icon/fire_icon.jpg" alt="огонь" class="portfolio-img__icon">
-            <img src="./Images/Icon/headphones_icon.jpg" alt="наушники" class="portfolio-img__icon">
-            <img src="./Images/Icon/document icon.jpg" alt="документы" class="portfolio-img__icon">
-            <img src="./Images/Icon/search_icon.jpg" alt="поиск" class="portfolio-img__icon">
-            <img src="./Images/Icon/tape_recorder icon.jpg" alt="магнитофон" class="portfolio-img__icon">
-            <img src="./Images/Icon/call_icon.jpg" alt="позвонить" class="portfolio-img__icon">
+            <img src="./images/icons/photo-camera-icon.jpg" alt="фотоаппарат" class="portfolio-img__icon">
+            <img src="./images/icons/chat-icon.jpg" alt="чат" class="portfolio-img__icon">
+            <img src="./images/icons/fire-icon.jpg" alt="огонь" class="portfolio-img__icon">
+            <img src="./images/icons/headphones-icon.jpg" alt="наушники" class="portfolio-img__icon">
+            <img src="./images/icons/document-icon.jpg" alt="документы" class="portfolio-img__icon">
+            <img src="./images/icons/search-icon.jpg" alt="поиск" class="portfolio-img__icon">
+            <img src="./images/icons/tape-recorder icon.jpg" alt="магнитофон" class="portfolio-img__icon">
+            <img src="./images/icons/call-icon.jpg" alt="позвонить" class="portfolio-img__icon">
         </div>
     </section>
 
     <!-- СЕКЦИЯ about-me -->
-    <section class="section section-dark-background" id="section-about-me">
+    <section class="section section--dark" id="section-about-me">
         <h1 class="section__title">Обо мне</h1>
         <h2 class="section__subtitle">Я умный, воспитанный, веселый пес.</h2>
 
         <div class="about-me">
             
             <div class="about-me__card">
-                <img src="./Images/about__me/photos in the cinema.jpg" alt="фото в кино" class="about-me__img">
+                <img src="./images/about-me/photos-in-the-cinema.jpg" alt="фото в кино" class="about-me__img">
                 <h3 class="about-me__title">Мое хобби</h3>
                 <h4 class="about-me__subtitle">Смотреть кино!!!</h4>
                 <div class="about-me__text-content">
@@ -109,7 +109,7 @@
             </div>
 
             <div class="about-me__card">
-                <img src="./Images/about__me/photographer.jpg" alt="фото фотограф" class="about-me__img">
+                <img src="./images/about-me/photographer.jpg" alt="фото фотограф" class="about-me__img">
                 <h3 class="about-me__title">Я люблю</h3>
                 <h4 class="about-me__subtitle">Фотографироваться!!! </h4>
                 <div class="about-me__text-content">
@@ -118,7 +118,7 @@
             </div>
 
             <div class="about-me__card">
-                <img src="./Images/about__me/travel.jpg" alt="фото путешественник"
+                <img src="./images/about-me/travel.jpg" alt="фото путешественник"
                     class="about-me__img">
                 <h3 class="about-me__title">Мне нравится</h3>
                 <h4 class="about-me__subtitle">Когда меня берут в путешествие </h4>
@@ -167,8 +167,8 @@
     </section>
 
     <a href="#" class="up_arrow">
-        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="314.069px" height="314.069px" viewBox="0 0 314.069 314.069" style="enable-background:new 0 0 314.069 314.069;"
+        <svg version="1.1" id="Capa_1" x="0px" y="0px"
+	 width="314.069px" height="314.069px" viewBox="0 0 314.069 314.069"
 	 xml:space="preserve" class="up_arrow">
 <g>
 	<g id="_x34_99._Up">
