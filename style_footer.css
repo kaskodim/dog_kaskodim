@@ -1,0 +1,16 @@
+/*     ПОДВАЛ      */
+
+.footer {
+    height: 70px;
+    background: #303441;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__property-text {
+    color: #545c79;
+}
